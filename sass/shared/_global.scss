@@ -1,0 +1,44 @@
+body {
+    // margin: 0;
+    font-family: $main-font;
+    // font-weight: 500;
+    // font-size: 1rem;
+}
+html {
+    font-size: 18px;
+}
+
+.container {
+    // width: 96%;
+    width: calc(100% - 3.5rem);
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media all and (min-width: $sm-min) {
+    .container {
+        min-width: 700px;
+    }
+}
+@media all and (min-width: $md-min) {
+    .container {
+        min-width: 950px;
+    }
+}
+@media all and (min-width: $ld-min) {
+    .container {
+        min-width: 1140px;
+    }
+}
+@media all and (min-width: $xl-min) {
+    .container {
+        min-width: 1400px;
+    }
+}

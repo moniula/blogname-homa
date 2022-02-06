@@ -1,0 +1,16 @@
+.header__nav_container {
+  height: calc(100vh - 210px);
+}
+
+.header__logo img {
+  max-height: 37px;
+}
+
+.header__btn {
+  height: 160px;
+}
+
+.header__btn_search {
+  width: 160px;
+}
+/*# sourceMappingURL=laptop-l.css.map */

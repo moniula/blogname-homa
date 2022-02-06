@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEGS,AAAD,sBAAW,CAAC;EACR,MAAM,EAAE,mBAAmB;CAC9B;;AAGJ,AACG,aADG,CACH,GAAG,CAAC;EACA,UAAU,EAAE,IAAI;CACnB;;AAGJ,AAAD,YAAM,CAAC;EACH,MAAM,EDkBF,KAAK;CCbZ;;AAHI,AAAD,mBAAQ,CAAC;EACL,KAAK,EDeL,KAAK;CCdR",
+    "sources": [
+        "../sass/laptop-l.scss",
+        "../sass/shared/_variables.scss",
+        "../sass/header/_header-laptop-l.scss"
+    ],
+    "names": [],
+    "file": "laptop-l.css"
+}

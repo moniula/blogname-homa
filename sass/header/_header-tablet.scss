@@ -1,0 +1,44 @@
+.header {
+    position: static;
+        
+        &__nav {
+            position: absolute;
+            right: 0;
+            width: 50%;
+
+            &_container {
+                height: calc(100vh - 150px);
+            }
+
+            &_top {
+                display: block;
+            }
+
+            &_contact {
+                margin: 0 0 0;
+            }
+        }
+                
+        &__logo {
+            img {
+                max-height: 25px;
+            }  
+        }
+            
+        &__btn {
+            height: $header-md;
+
+                &_menu,
+                &_search {
+                    width: $header-md;       
+                }
+        }
+}
+
+.menu-copyright {
+    display: block;
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+    padding: 0 0 40px 0;
+}

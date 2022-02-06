@@ -1,0 +1,45 @@
+.header {
+
+    &__nav {
+        position: fixed;
+        left: 0;
+        margin: 15px 0 0 15px;
+        width: 250px;
+        background: #f6f6f6;
+
+        &_container {
+            height: calc(100vh - 170px);
+        }
+        &_contact, .c-email, .menu-copyright {
+            color: #010101;
+        }
+    }
+                
+    &__logo {
+        img {
+            max-height: 32px;
+        }  
+    }
+        
+    &__btn {
+        height: $header-ld;
+
+        &_menu {
+            display: none;
+        }
+
+        &_search {
+            width: $header-ld;       
+        }
+    }
+}
+    
+.a_nav {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+
+    &:hover {
+        background-color: white;
+        color: #000;
+    }
+}

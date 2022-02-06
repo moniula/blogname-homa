@@ -1,0 +1,42 @@
+.header__nav {
+  position: fixed;
+  left: 0;
+  margin: 15px 0 0 15px;
+  width: 250px;
+  background: #f6f6f6;
+}
+
+.header__nav_container {
+  height: calc(100vh - 170px);
+}
+
+.header__nav_contact, .header__nav .c-email, .header__nav .menu-copyright {
+  color: #010101;
+}
+
+.header__logo img {
+  max-height: 32px;
+}
+
+.header__btn {
+  height: 120px;
+}
+
+.header__btn_menu {
+  display: none;
+}
+
+.header__btn_search {
+  width: 120px;
+}
+
+.a_nav {
+  background-color: #000;
+  color: white;
+}
+
+.a_nav:hover {
+  background-color: white;
+  color: #000;
+}
+/*# sourceMappingURL=laptop.css.map */

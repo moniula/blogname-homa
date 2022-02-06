@@ -1,0 +1,42 @@
+.header {
+  position: static;
+}
+
+.header__nav {
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+.header__nav_container {
+  height: calc(100vh - 150px);
+}
+
+.header__nav_top {
+  display: block;
+}
+
+.header__nav_contact {
+  margin: 0 0 0;
+}
+
+.header__logo img {
+  max-height: 25px;
+}
+
+.header__btn {
+  height: 100px;
+}
+
+.header__btn_menu, .header__btn_search {
+  width: 100px;
+}
+
+.menu-copyright {
+  display: block;
+  font-size: 12px;
+  font-weight: 200;
+  color: white;
+  padding: 0 0 40px 0;
+}
+/*# sourceMappingURL=tablet.css.map */

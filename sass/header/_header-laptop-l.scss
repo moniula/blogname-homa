@@ -1,0 +1,24 @@
+.header {
+    &__nav {
+            
+        &_container {
+            height: calc(100vh - 210px);
+        }
+    }
+       
+    &__logo {      
+        img {
+            max-height: 37px;
+        }    
+    }
+        
+    &__btn {
+        height: $header-xl;
+            
+        &_search {
+            width: $header-xl;       
+        }
+    }        
+}
+
+

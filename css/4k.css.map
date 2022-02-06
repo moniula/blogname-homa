@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/4k.scss",
+        "../sass/shared/_variables.scss",
+        "../sass/header/_header-4k.scss"
+    ],
+    "names": [],
+    "file": "4k.css"
+}
